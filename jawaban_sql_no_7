@@ -1,0 +1,8 @@
+Soal 
+A.tampilkan semua buku
+B.tampilkan produk per kategori, field ditampilkan nama kategori, nama buku, stock
+C.tampilak detail buku berdasarkan id
+Jawaban
+A. SELECT * FROM books;
+B. SELECT categories.name_categori,books.name,books.stok FROM books,categories WHERE books.category_id = categories.id
+C. SELECT deskripsi,id FROM books WHERE id=9;
